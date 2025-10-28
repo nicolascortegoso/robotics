@@ -13,5 +13,4 @@ void loop() {
     val = analogRead(potpin);
     val = map(val, 0, 1023, 0, 180);
     myservo.write(val);
-    delay(15);
 }
