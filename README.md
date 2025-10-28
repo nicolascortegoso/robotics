@@ -1,7 +1,7 @@
 # Robotics
 
-## Useful commands
+## Compile and upload a script
 
-List installed cores: `arduino-cli core list`
-
-Check connected boards: `arduino-cli board list`
+```bash
+make SKETCH=code/script_folder
+```
